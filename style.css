@@ -1,0 +1,23 @@
+body {
+    background: #191919;
+}
+
+.clock {
+    font-size: 5em;
+    text-align: center;
+    margin: 200px auto;
+    color: #E6E49D;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.clock span {
+    padding: 20px;
+    background: #343534;
+}
+
+@media(max-width: 560px){
+    .clock span{
+        display: block;
+        
+    }
+}
